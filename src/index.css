@@ -1613,13 +1613,13 @@ img {
   width: 56px;
   height: 56px;
   border-radius: 50%;
-  background-color: var(--color-gold);
+  background-color: #25D366;
   color: var(--color-bg-main);
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: var(--z-floating);
-  box-shadow: 0 4px 20px var(--color-gold-glow);
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.3);
   transition: var(--transition-smooth);
 }
 
@@ -1630,8 +1630,8 @@ img {
 
 .whatsapp-floating:hover {
   transform: scale(1.1) translateY(-4px);
-  background-color: var(--color-gold-hover);
-  box-shadow: 0 8px 30px var(--color-gold-glow);
+  background-color: #1DA851;
+  box-shadow: 0 8px 30px rgba(37, 211, 102, 0.35);
 }
 
 .floating-pulse {
